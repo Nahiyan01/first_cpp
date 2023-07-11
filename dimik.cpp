@@ -14,7 +14,7 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        cout<<finding_tailing_0s(n)<<endl;
+        cout<<finding_tailing_0s(n)<<endl; 
     }
     return 0;
 }

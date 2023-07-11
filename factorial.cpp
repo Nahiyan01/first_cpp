@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void factorial(int n){
-    int count=0;
+    int count=1;
     for(int i=n;i>=1;i--){
         count = count * i;
         cout<<count<<endl;
@@ -16,5 +16,5 @@ int main(){
         cin>>n;
         factorial(n);
     }
-    return 0;
+    return 01;
 }
